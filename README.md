@@ -19,3 +19,42 @@ An AI agent that fills out long Google Forms automatically using voice commands.
    ```bash
    git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
    cd YOUR_REPO_NAME
+   
+2. **Create a Virtual Environment (Recommended):**  
+
+**Linux/Mac**
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+
+ **Windows**
+ ```bash
+python -m venv venv
+venv\Scripts\activate
+```
+3. **Install Dependencies:**
+Note: Linux users may need to install `portaudio19-dev` first (`sudo apt install portaudio19-dev`).
+```bash
+pip install -r requirements.txt
+```
+
+## Usage
+
+1. Open `agent.py` and replace `FORM_URL` with your specific Google Form link.
+2. Run the agent:
+ ```bash
+python agent.py
+   ```
+3. Speak commands clearly:
+   
+    "Option 1", "First one"
+
+    "Next", "Skip"
+
+    "Back"
+
+    "Submit"
+
+    "Stop"
+   
