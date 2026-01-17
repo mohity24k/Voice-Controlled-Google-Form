@@ -1,0 +1,5 @@
+selenium
+SpeechRecognition
+pyttsx3
+webdriver-manager
+pyaudio
